@@ -8,7 +8,6 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <GithubRibbon />
         <div className="container">
           <div className="row">
             <div className="col-md-8">

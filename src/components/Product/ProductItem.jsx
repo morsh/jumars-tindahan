@@ -15,7 +15,7 @@ export default React.createClass({
       <div className="item">
         <div className="body">
           <div className="thumbnail"> <img src={`assets/img/${img}`} /> </div>
-          <h3>{name} ({stock}{remaining})</h3>
+          <h3>{name}</h3><span>({stock}{remaining})</span>
           <h5>{price} PHP</h5>
           <ProductItemBuyButton stock={!!stock} id={id} />
         </div>
