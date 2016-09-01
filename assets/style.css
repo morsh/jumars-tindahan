@@ -7272,6 +7272,7 @@ fieldset[disabled] .cart .actions > .btn.-checkout.focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin-right: 10px;
 }
 .category-links > .link:focus,
 .category-links > .link:active:focus,
@@ -7365,119 +7366,174 @@ fieldset[disabled] .category-links > .link.-all.focus {
   color: #fff;
   background-color: #333;
 }
-.category-links > .link.-chichirya {
+.category-links > .link.-StarWars {
   color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236;
-  margin-left: 10px;
-  margin-right: 10px;
 }
-.category-links > .link.-chichirya:focus,
-.category-links > .link.-chichirya.focus {
+.category-links > .link.-StarWars:focus,
+.category-links > .link.-StarWars.focus {
   color: #fff;
   background-color: #ec971f;
   border-color: #985f0d;
 }
-.category-links > .link.-chichirya:hover {
+.category-links > .link.-StarWars:hover {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
-.category-links > .link.-chichirya:active,
-.category-links > .link.-chichirya.active,
-.open > .dropdown-toggle.category-links > .link.-chichirya {
+.category-links > .link.-StarWars:active,
+.category-links > .link.-StarWars.active,
+.open > .dropdown-toggle.category-links > .link.-StarWars {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
-.category-links > .link.-chichirya:active:hover,
-.category-links > .link.-chichirya.active:hover,
-.open > .dropdown-toggle.category-links > .link.-chichirya:hover,
-.category-links > .link.-chichirya:active:focus,
-.category-links > .link.-chichirya.active:focus,
-.open > .dropdown-toggle.category-links > .link.-chichirya:focus,
-.category-links > .link.-chichirya:active.focus,
-.category-links > .link.-chichirya.active.focus,
-.open > .dropdown-toggle.category-links > .link.-chichirya.focus {
+.category-links > .link.-StarWars:active:hover,
+.category-links > .link.-StarWars.active:hover,
+.open > .dropdown-toggle.category-links > .link.-StarWars:hover,
+.category-links > .link.-StarWars:active:focus,
+.category-links > .link.-StarWars.active:focus,
+.open > .dropdown-toggle.category-links > .link.-StarWars:focus,
+.category-links > .link.-StarWars:active.focus,
+.category-links > .link.-StarWars.active.focus,
+.open > .dropdown-toggle.category-links > .link.-StarWars.focus {
   color: #fff;
   background-color: #d58512;
   border-color: #985f0d;
 }
-.category-links > .link.-chichirya:active,
-.category-links > .link.-chichirya.active,
-.open > .dropdown-toggle.category-links > .link.-chichirya {
+.category-links > .link.-StarWars:active,
+.category-links > .link.-StarWars.active,
+.open > .dropdown-toggle.category-links > .link.-StarWars {
   background-image: none;
 }
-.category-links > .link.-chichirya.disabled:hover,
-.category-links > .link.-chichirya[disabled]:hover,
-fieldset[disabled] .category-links > .link.-chichirya:hover,
-.category-links > .link.-chichirya.disabled:focus,
-.category-links > .link.-chichirya[disabled]:focus,
-fieldset[disabled] .category-links > .link.-chichirya:focus,
-.category-links > .link.-chichirya.disabled.focus,
-.category-links > .link.-chichirya[disabled].focus,
-fieldset[disabled] .category-links > .link.-chichirya.focus {
+.category-links > .link.-StarWars.disabled:hover,
+.category-links > .link.-StarWars[disabled]:hover,
+fieldset[disabled] .category-links > .link.-StarWars:hover,
+.category-links > .link.-StarWars.disabled:focus,
+.category-links > .link.-StarWars[disabled]:focus,
+fieldset[disabled] .category-links > .link.-StarWars:focus,
+.category-links > .link.-StarWars.disabled.focus,
+.category-links > .link.-StarWars[disabled].focus,
+fieldset[disabled] .category-links > .link.-StarWars.focus {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-.category-links > .link.-chichirya .badge {
+.category-links > .link.-StarWars .badge {
   color: #f0ad4e;
   background-color: #fff;
 }
-.category-links > .link.-drinks {
+.category-links > .link.-Frozen {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.category-links > .link.-Frozen:focus,
+.category-links > .link.-Frozen.focus {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+.category-links > .link.-Frozen:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.category-links > .link.-Frozen:active,
+.category-links > .link.-Frozen.active,
+.open > .dropdown-toggle.category-links > .link.-Frozen {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.category-links > .link.-Frozen:active:hover,
+.category-links > .link.-Frozen.active:hover,
+.open > .dropdown-toggle.category-links > .link.-Frozen:hover,
+.category-links > .link.-Frozen:active:focus,
+.category-links > .link.-Frozen.active:focus,
+.open > .dropdown-toggle.category-links > .link.-Frozen:focus,
+.category-links > .link.-Frozen:active.focus,
+.category-links > .link.-Frozen.active.focus,
+.open > .dropdown-toggle.category-links > .link.-Frozen.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.category-links > .link.-Frozen:active,
+.category-links > .link.-Frozen.active,
+.open > .dropdown-toggle.category-links > .link.-Frozen {
+  background-image: none;
+}
+.category-links > .link.-Frozen.disabled:hover,
+.category-links > .link.-Frozen[disabled]:hover,
+fieldset[disabled] .category-links > .link.-Frozen:hover,
+.category-links > .link.-Frozen.disabled:focus,
+.category-links > .link.-Frozen[disabled]:focus,
+fieldset[disabled] .category-links > .link.-Frozen:focus,
+.category-links > .link.-Frozen.disabled.focus,
+.category-links > .link.-Frozen[disabled].focus,
+fieldset[disabled] .category-links > .link.-Frozen.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.category-links > .link.-Frozen .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+.category-links > .link.-GameofThrones {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
 }
-.category-links > .link.-drinks:focus,
-.category-links > .link.-drinks.focus {
+.category-links > .link.-GameofThrones:focus,
+.category-links > .link.-GameofThrones.focus {
   color: #fff;
   background-color: #286090;
   border-color: #122b40;
 }
-.category-links > .link.-drinks:hover {
+.category-links > .link.-GameofThrones:hover {
   color: #fff;
   background-color: #286090;
   border-color: #204d74;
 }
-.category-links > .link.-drinks:active,
-.category-links > .link.-drinks.active,
-.open > .dropdown-toggle.category-links > .link.-drinks {
+.category-links > .link.-GameofThrones:active,
+.category-links > .link.-GameofThrones.active,
+.open > .dropdown-toggle.category-links > .link.-GameofThrones {
   color: #fff;
   background-color: #286090;
   border-color: #204d74;
 }
-.category-links > .link.-drinks:active:hover,
-.category-links > .link.-drinks.active:hover,
-.open > .dropdown-toggle.category-links > .link.-drinks:hover,
-.category-links > .link.-drinks:active:focus,
-.category-links > .link.-drinks.active:focus,
-.open > .dropdown-toggle.category-links > .link.-drinks:focus,
-.category-links > .link.-drinks:active.focus,
-.category-links > .link.-drinks.active.focus,
-.open > .dropdown-toggle.category-links > .link.-drinks.focus {
+.category-links > .link.-GameofThrones:active:hover,
+.category-links > .link.-GameofThrones.active:hover,
+.open > .dropdown-toggle.category-links > .link.-GameofThrones:hover,
+.category-links > .link.-GameofThrones:active:focus,
+.category-links > .link.-GameofThrones.active:focus,
+.open > .dropdown-toggle.category-links > .link.-GameofThrones:focus,
+.category-links > .link.-GameofThrones:active.focus,
+.category-links > .link.-GameofThrones.active.focus,
+.open > .dropdown-toggle.category-links > .link.-GameofThrones.focus {
   color: #fff;
   background-color: #204d74;
   border-color: #122b40;
 }
-.category-links > .link.-drinks:active,
-.category-links > .link.-drinks.active,
-.open > .dropdown-toggle.category-links > .link.-drinks {
+.category-links > .link.-GameofThrones:active,
+.category-links > .link.-GameofThrones.active,
+.open > .dropdown-toggle.category-links > .link.-GameofThrones {
   background-image: none;
 }
-.category-links > .link.-drinks.disabled:hover,
-.category-links > .link.-drinks[disabled]:hover,
-fieldset[disabled] .category-links > .link.-drinks:hover,
-.category-links > .link.-drinks.disabled:focus,
-.category-links > .link.-drinks[disabled]:focus,
-fieldset[disabled] .category-links > .link.-drinks:focus,
-.category-links > .link.-drinks.disabled.focus,
-.category-links > .link.-drinks[disabled].focus,
-fieldset[disabled] .category-links > .link.-drinks.focus {
+.category-links > .link.-GameofThrones.disabled:hover,
+.category-links > .link.-GameofThrones[disabled]:hover,
+fieldset[disabled] .category-links > .link.-GameofThrones:hover,
+.category-links > .link.-GameofThrones.disabled:focus,
+.category-links > .link.-GameofThrones[disabled]:focus,
+fieldset[disabled] .category-links > .link.-GameofThrones:focus,
+.category-links > .link.-GameofThrones.disabled.focus,
+.category-links > .link.-GameofThrones[disabled].focus,
+fieldset[disabled] .category-links > .link.-GameofThrones.focus {
   background-color: #337ab7;
   border-color: #2e6da4;
 }
-.category-links > .link.-drinks .badge {
+.category-links > .link.-GameofThrones .badge {
   color: #337ab7;
   background-color: #fff;
 }
@@ -7694,6 +7750,9 @@ fieldset[disabled] .category-links > .link.-drinks.focus {
 .product > .list > .item > .body > h3 {
   clear: both;
   margin-top: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .product > .list > .item > .body > .buy-btn-container {
   margin-top: 10px;

@@ -17,6 +17,10 @@ export default React.createClass({
     var path = router.getCurrentPath();
     var filter = path == '/' ? 'all' : path.slice(1, path.length);
 
+    if (filter.startsWith('category/')) {
+      filter = filter.substr('category/'.length);
+    }
+
     return (
       <div className="product">
         <ProductHeader filter={filter} />

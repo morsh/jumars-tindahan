@@ -1,4 +1,5 @@
 import Immutable from 'immutable';
+import _ from 'underscore';
 import alt from '../alt';
 import data from '../data';
 import FundStore from './FundStore';
@@ -16,6 +17,7 @@ var snapshot;
 class ProductStore {
   constructor() {
     this.products = initial;
+    this.categories = _.uniq(data.map((p) => { return p.category }));
     this.bindActions(CartActions);
 
     // We'll expose this store's getter for CartStore's use
